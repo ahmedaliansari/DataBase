@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins : wght@100 ; 200 ; 300; 400; 500; 600&display=swap' );
+
+*{
+font-family: 'poppins' , sans-serif;
+margin:0; padding:0;
+box-sizing: border-box;
+outline: none; border:none;
+text-decoration: none;
+}
+
+/* /Admin Page Css Here/  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{ color: white; text-decoration: none; font-family: Arial, Helvetica, sans-serif;}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a52f9;
+    background-image: linear-gradient(19deg, #1a52f9 0%, #d465ef 70%);
+    position: relative;
+}
+header:before{
+    content: "";
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top : 250px;
+    background-image: url(../image/555.jpg);
+    background-size: 100% 100%;
+    border-top-right-radius: 50%;
+    /* border-top-left-radius: 50%; */
+    border-bottom-right-radius: 50%;
+    border-bottom: 0;
+
+}
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+}
+.logo a{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-family: 'Nosifer', cursive;
+}
+.menu ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+.menu ul li a{
+    text-transform: capitalize;
+}
+.menu ul li:hover{
+    background-image: linear-gradient(19deg, #1a52f9 0%, #d465ef 70%);
+    font-family: 'Nosifer', cursive;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.contact_btn a{
+    background-color: #d059ee;
+    padding: 12px 26px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.contact_btn a:hover{
+    background: linear-gradient(to bottom , #615cfd 0%, #d465ef 100%);
+}
+/*  Center Content */
+.center_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.center_content h1{
+    color: #fff;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.center_content h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+.center_content h2:before{
+    content : "";
+    width: 60px;
+    height: auto;
+    border: 2px solid #fff;
+    position: absolute;
+    left: -10px;
+    top: 144px;
+}
+
+.center_content h3{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.center_content span{
+    background-image: linear-gradient(19deg, #1a52f9 0%, #d465ef 70%);
+    font-family:  'Times New Roman', Times, serif;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.center_content p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: blue;
+}
+.center_content p:hover{
+    color: #d059ee;
+}
+.center_content .btn{
+ display: inline-block;
+ padding: 10px 30px;
+ font-size: 24px;
+ background: #fff;
+ color: #000;
+ border-radius: 8px;
+ margin: 25px 5px;
+ font-family: 'Times New Roman', Times, serif;
+ 
+}
+.center_content .btn:hover{
+    background: linear-gradient(19deg,  #d465ef 0%, #1a52f9 70%); 
+    color: #fff;
+    font-family: 'Nosifer', cursive;
+    padding: 0 10px;
+
+}
+.extra{
+    position: absolute;
+    top: 490px;
+    left: 120px;
+    font-family: 'Nosifer', cursive;
+    color: #615cfd;
+}
+.social_network{
+    width: 100px;
+    height : auto;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.fa_icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom , #615cfd 0%, #d465ef 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa_icons:nth-child(even){
+    margin: 20px 0;
+}
+.fa_icons:hover{
+    background : linear-gradient(to bottom , #d465ef 0%, #615cfd 100%);
+}
+.grid_section1{
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    overflow: hidden;
+}
+.grid_section2{
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    overflow: hidden;
+}
+.grid_section3{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    right: 35%;
+    bottom: 0;
+    overflow: hidden;
+}
+
+/* /Admin Page Css Here/  */
+
+
+/* /Register Form.Php Css Here/  */
+
+.m_head{
+    font-size: 40px;
+    display: block;
+    position: absolute;
+    justify-content: center;
+    top: 100px;
+    left: 500px;
+    background: linear-gradient(19deg, #1a52f9 0%, #d465ef 70%);  
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bold; 
+}
+.form-container form{
+    padding: 20px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.1);
+    background: linear-gradient(19deg, #1a52f9 0%, #d465ef 70%);
+    text-align: center;
+    border-radius: 5px;
+    width: 500px;
+}
+.form-container form h3{
+ font-size: 35px;
+ color: #fff;
+ margin-bottom: 10px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.form-container form input,
+.form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-size: 17px;
+    margin: 8px 0;
+    background: #eee;
+    
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(19deg, #d465ef  0%, #1a52f9 70%); 
+}
+form .form-btn:hover{
+    background: linear-gradient(19deg, #d465ef  0%, #1a52f9 70%); 
+    color: rgb(255, 255, 255);
+}
+/* /Register Form.Php Css Here/  */
